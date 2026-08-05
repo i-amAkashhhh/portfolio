@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Fascinate&family=Source+Code+Pro:wght@200&display=swap');
+
+
+.sidebar{
+    position: absolute;
+    background-color: gray;
+    /* width: 500px; */
+    height: 100vh;
+   transition: transform 0.3s ease-in;
+    
+}
+.main{
+    /* background-color: rgb(135, 233, 214); */
+       /* background: url('can.jpg'); */
+       background-color: black;
+    color: white;
+    width: 90vw;
+    /* padding: 50px; */
+}
+.container{
+    display: flex;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    padding: 33px 0;
+    list-style: none;
+    font-size: 30px;
+    
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+    /* background: url('can.jpg'); */
+    /* background: url('contactimg.jpg'); */
+    height: 58vh;
+    width: 80vw;
+    /* width: 100%; */
+    margin: 144px auto;
+}
+.divInfo{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    font-family: 'Source Code Pro', monospace;
+}
+.devPic img{
+  
+    height: 48vh;
+    border-radius: 200px;
+
+}
+.hello{
+    font-size: 65px;
+
+font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.about{
+
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+}
+.aboutMore{
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+.buttons{
+    margin-top: 30px;
+}
+.buttons button{
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 5px;
+}
+.btn:hover{
+background-color: white;
+color: aquamarine;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width:1000px){
+    /* *{
+        background-color: aquamarine;
+    } */
+    /* .sidebarGo{
+        transform: translate(-443px,0px);
+        position: absolute;
+    } */
+    /* .devPic{
+    display: none;
+} */
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+}
+.cross{
+    margin-left: 185px;
+    margin-top: 10px;
+    height: 30px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
